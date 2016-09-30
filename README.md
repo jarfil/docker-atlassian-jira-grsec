@@ -24,8 +24,7 @@ Atlassian JIRA Core wrapped in a Docker image
   * Github: https://github.com/cptactionhank/docker-atlassian-jira
   * Docs: https://cptactionhank.github.io/docker-atlassian-jira
 
-atlassian-jira-software-grsec.image
-* Atlassian JIRA Software wrapped in a Docker image
+Atlassian JIRA Software wrapped in a Docker image
 * Image: jarfil/atlassian-jira-software-grsec
   * atlassian-jira-software-grsec.image
 * Base: cptactionhank/atlassian-jira-software
