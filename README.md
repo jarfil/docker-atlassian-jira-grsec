@@ -14,22 +14,29 @@ OpenJDK 64-Bit Server VM warning: INFO: os::commit_memory(0x00000340f817d000, 25
 
 https://stackoverflow.com/questions/27262629/jvm-cant-map-reserved-memory-when-running-in-docker-container
 
-### base images
+### images
 
+Atlassian JIRA Core wrapped in a Docker image
+* Image: jarfil/atlassian-jira-grsec
 atlassian-jira-grsec.image
-* Atlassian JIRA Core wrapped in a Docker image
- * Docker: cptactionhank/atlassian-jira
- * Github: https://github.com/cptactionhank/docker-atlassian-jira
- * Docs: https://cptactionhank.github.io/docker-atlassian-jira
+* Base: cptactionhank/atlassian-jira
+Docker: https://hub.docker.com/r/cptactionhank/atlassian-jira
+Github: https://github.com/cptactionhank/docker-atlassian-jira
+Docs: https://cptactionhank.github.io/docker-atlassian-jira
 
 atlassian-jira-software-grsec.image
 * Atlassian JIRA Software wrapped in a Docker image
- * Docker: cptactionhank/atlassian-jira-software
- * Github: https://github.com/cptactionhank/docker-atlassian-jira-software
- * Docs: https://cptactionhank.github.io/docker-atlassian-jira-software
+* Image: jarfil/atlassian-jira-software-grsec
+atlassian-jira-software-grsec.image
+* Base: cptactionhank/atlassian-jira-software
+Docker: https://hub.docker.com/r/cptactionhank/atlassian-jira-software
+Github: https://github.com/cptactionhank/docker-atlassian-jira-software
+Docs: https://cptactionhank.github.io/docker-atlassian-jira-software
 
+Atlassian JIRA Service Desk wrapped in a Docker image
+* Image: jarfil/atlassian-jira-service-desk-grsec
 atlassian-jira-service-desk-grsec.image
-* Atlassian JIRA Service Desk wrapped in a Docker image
- * Docker: cptactionhank/atlassian-jira-service-desk
- * Github: https://github.com/cptactionhank/docker-atlassian-jira-service-desk
- * Docs: https://cptactionhank.github.io/docker-atlassian-jira-service-desk
+* Base: cptactionhank/atlassian-jira
+Docker: https://hub.docker.com/r/cptactionhank/atlassian-jira-service-desk
+Github: https://github.com/cptactionhank/docker-atlassian-jira-service-desk
+Docs: https://cptactionhank.github.io/docker-atlassian-jira-service-desk
