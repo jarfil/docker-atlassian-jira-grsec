@@ -16,14 +16,17 @@ https://stackoverflow.com/questions/27262629/jvm-cant-map-reserved-memory-when-r
 
 ### base images
 
-Atlassian JIRA Core wrapped in a Docker image
+atlassian-jira-grsec.image
+* Atlassian JIRA Core wrapped in a Docker image
 * https://github.com/cptactionhank/docker-atlassian-jira
 * https://cptactionhank.github.io/docker-atlassian-jira
 
-Atlassian JIRA Software wrapped in a Docker image
+atlassian-jira-software-grsec.image
+* Atlassian JIRA Software wrapped in a Docker image
 * https://github.com/cptactionhank/docker-atlassian-jira-software
 * https://cptactionhank.github.io/docker-atlassian-jira-software
 
-Atlassian JIRA Service Desk wrapped in a Docker image
+atlassian-jira-service-desk-grsec.image
+* Atlassian JIRA Service Desk wrapped in a Docker image
 * https://github.com/cptactionhank/docker-atlassian-jira-service-desk
 * https://cptactionhank.github.io/docker-atlassian-jira-service-desk
