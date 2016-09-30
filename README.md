@@ -1,6 +1,8 @@
 # docker-atlassian-jira-grsec
 Based on cptactionhank/atlassian-jira, to add grsec support
 
+### grsec problem and fix
+
 ```
 OpenJDK 64-Bit Server VM warning: INFO: os::commit_memory(0x00000340f817d000, 2555904, 1) failed; error='Operation not permitted' (errno=1)
 #
@@ -11,3 +13,17 @@ OpenJDK 64-Bit Server VM warning: INFO: os::commit_memory(0x00000340f817d000, 25
 ```
 
 https://stackoverflow.com/questions/27262629/jvm-cant-map-reserved-memory-when-running-in-docker-container
+
+### base images
+
+Atlassian JIRA Core wrapped in a Docker image
+* https://github.com/cptactionhank/docker-atlassian-jira
+* https://cptactionhank.github.io/docker-atlassian-jira
+
+Atlassian JIRA Software wrapped in a Docker image
+* https://github.com/cptactionhank/docker-atlassian-jira-software
+* https://cptactionhank.github.io/docker-atlassian-jira-software
+
+Atlassian JIRA Service Desk wrapped in a Docker image
+* https://github.com/cptactionhank/docker-atlassian-jira-service-desk
+* https://cptactionhank.github.io/docker-atlassian-jira-service-desk
