@@ -11,12 +11,14 @@ MAINTAINER Jaroslaw Filiochowski <jarfil@gmail.com>
 
 USER root:root
 
+COPY java-pax.sh /root/java-pax.sh
+RUN chmod +x /root/java-pax.sh
+
 RUN apt-get -y update \
 	&& apt-get -y upgrade \
 	&& apt-get -y install \
 		paxctl \
-	&& paxctl -c /usr/bin/java \
-	&& paxctl -m /usr/bin/java \
+	&& /root/java-pax.sh \
 	&& apt-get -y --purge purge paxctl \
 	&& apt-get -y autoremove \
 	&& apt-get clean \
